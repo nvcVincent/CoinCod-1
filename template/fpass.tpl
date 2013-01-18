@@ -1,5 +1,5 @@
 ﻿<?php
-	require 'config.php';
+	require '../config.php';
 	
 	function sendpassword($emails) {
 		$password_check = mysql_query("SELECT * FROM user_account WHERE Email='$emails'");
