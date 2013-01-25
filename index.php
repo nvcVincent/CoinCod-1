@@ -16,8 +16,8 @@ $meta_description = "Welcome to CoinCod - a unique auction system built to draw 
 
 $contentContainer = array(
     array(
-        "title" => "asdasfa",
-        "content" => "asdafsdfghjkhgfdsafghjkhgfdsfghjklhgfdsadfghjk",
+        "title" => "",
+        "content" => "",
 		"bottom_image" =>""
     )
 );
