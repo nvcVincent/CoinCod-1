@@ -236,7 +236,7 @@ function registeruser($emails, $username, $passwords, $re_password, $firstname, 
 												<option value="1970">1970</option>
 												<option value="1969">1969</option>
 												<option value="1968">1968</option>
-												<option value="19100">19100</option>
+												<option value="1967">1967</option>
 												<option value="1966">1966</option>
 												<option value="1965">1965</option>
 												<option value="1964">1964</option>
