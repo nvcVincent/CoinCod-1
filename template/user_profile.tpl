@@ -143,7 +143,7 @@ function updateUser($id, $email, $user, $first_name, $last_name, $year, $month, 
 <form action="" enctype="multipart/form-data" name="myForm" id="myForm" method="post">
     <br/>
 	<fieldset width="700">
-		<legend><font size="5"><strong>ID and Password</strong></legend>
+		<legend><font size="5"><div class="strong">ID and Password</div></legend>
 			<table width="650" cellpadding="0" cellspacing="10">
                 <tr>
 					<td width="20%">
@@ -193,7 +193,7 @@ function updateUser($id, $email, $user, $first_name, $last_name, $year, $month, 
 		</fieldset>
         <br/>
 		<fieldset>
-			<legend><font size="5"><strong>Personal Information</strong></legend>
+			<legend><font size="5"><div class="strong">Personal Information</div></legend>
 				<table width="640" cellpadding="0" cellspacing="10">
 					<tr>
 						<td width="20%">

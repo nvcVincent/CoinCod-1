@@ -20,7 +20,7 @@ $contentContainer = array(
         "content" => '<terms>
 		<!--Terms and Conditions Content-->
 						<ul>
-							<strong>1. Acceptance of Terms of Service:</strong>
+							<div class="strong">1. Acceptance of Terms of Service:</div>
 							<li>
 THE FOLLOWING DESCRIBES THE TERMS ON WHICH Coincod OFFERS YOU ACCESS TO OUR AUCTION SERVICE.
 							</li><li>
@@ -52,7 +52,7 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 						</ul>
 						
 						<ul>
-							<strong>2.    Registration / Eligibility to Participate:</strong>
+							<div class="strong">2.    Registration / Eligibility to Participate:</div>
 							</li><li>
 
 
@@ -97,7 +97,7 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 						</ul>
 						
 						<ul>
-							<strong>3.    Auction Process / How the Auction Works: </strong>
+							<div class="strong">3.    Auction Process / How the Auction Works: </div>
 							</li><li>
         
 							3.1 The opening price of each item is 25% lower than the original market price. At start, the price of the item shall decrease(RM0.01) with each 1 token bid. After a certain period of time the token to bid will increase, and the price decrease will follow the amount of token. When the decrement price reaches RM0.00 each continuous bid will increase the price of the product. The increment will also follow the amount of tokens placed on the bid.  The bidding time (hereinafter Bidding Time) will be displayed near the item being sold at the Auction. Each new bid extends the bidding time by extending the remaining time because the bidding time starts anew after every bid.
@@ -131,7 +131,7 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 							</li><li>
 						</ul>
 						<ul>
-							<strong>4.    Bids and Bid\'s Fees: </strong>
+							<div class="strong">4.    Bids and Bid\'s Fees: </div>
 							</li><li>
 
 							4.1  Any valid Participant has the right to submit a Bid and/or Bids through Coincod\'s Internet website Coincod.com.
@@ -162,14 +162,14 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 							</li><li>
 						</ul>
 						<ul>
-							<strong>5.    Bidding:</strong>
+							<div class="strong">5.    Bidding:</div>
 							</li><li>
 							
 							5.1 Users can bid online. Tokens can be placed by clicking on the relevant buttons. Only registered users can submits their bids. Users are prohibited from using any bidding software that are not authorized by CoinCod, and doing so will result in immediate disqualification from use.
 							</li><li>
 						</ul>
 						<ul>
-							<strong>6.    Currency of the transactions:</strong>
+							<div class="strong">6.    Currency of the transactions:</div>
 							</li><li>
 							
 							6.1  At the moment the currency of all transactions related to service provided by Coincod is Ringgit Malaysia ($,RM).
@@ -177,7 +177,7 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 						</ul>
 						<ul>
         
-							<strong>7.    Acceptance of the Win / Payment:</strong>
+							<div class="strong">7.    Acceptance of the Win / Payment:</div>
 							</li><li>
 
 							7.1  After a single auction has ended, the last bidder (the "Winner") will receive a confirmation message by email, indicating that he has won a specific auction, and also including the final auction price for the auctioned item (the "Confirmation e-mail").
@@ -202,7 +202,7 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 							</li><li>
 						</ul>
 						<ul>
-							<strong>8.    Delivery</strong>
+							<div class="strong">8.    Delivery</div>
 							</li><li>
 
 
@@ -246,14 +246,14 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 							</li><li>
 						</ul>
 						<ul>
-							<strong>9.   Returns and Cancellation</strong>
+							<div class="strong">9.   Returns and Cancellation</div>
 							</li><li>
         
 							9.1 No refund unless the product is faulty
 							</li><li>
 						</ul>
 						<ul>
-							<strong>10. Offsetting / Withholding Payment / Retention of Title</strong>
+							<div class="strong">10. Offsetting / Withholding Payment / Retention of Title</div>
 							</li><li>
 
 							10.1  The Participant shall only have the right to offset if his or her counterclaims are not disputed by Coincod.
@@ -266,7 +266,7 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 							</li><li>
 						</ul>
 						<ul>
-							<strong>11. Disclaimer of Warranty and Limitation of Liability regarding the Use of Coincod.</strong>
+							<div class="strong">11. Disclaimer of Warranty and Limitation of Liability regarding the Use of Coincod.</div>
 							</li><li>
 
 							11.1  CLAIMS FOR DAMAGES BY THE PARTICIPANT AGAINST COINCOD, ITS LEGAL REPRESENTATIVES, EMPLOYEES, VICARIOUS AGENTS OR PARTIES WHO ASSIST IN PERFORMANCE ARE PROHIBITED.
@@ -312,7 +312,7 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 							</li><li>
 						</ul>
 						<ul>
-							<strong>12. Disclaimer of Warranty and Limitation of Liability regarding Purchases from Coincod.</strong>
+							<div class="strong">12. Disclaimer of Warranty and Limitation of Liability regarding Purchases from Coincod.</div>
 							</li><li> 
 
 							12.1  All items on Coincod are brand new and are sold with the manufacturer\'s limited warranty only, all product warrantees will be provided (if provided) by the actual distributors, manufacturers, and/or providers of products and/or service. No claims may be made against  Coincod for defective products and or service.
@@ -331,7 +331,7 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 							</li><li>
 						</ul>
 						<ul>
-							<strong>13. Illegal Activity</strong>
+							<div class="strong">13. Illegal Activity</div>
 							</li><li> 
 
 							13.1  The Site only may be used for lawful purposes and in a lawful manner. Participant agrees to comply with all applicable laws, statutes and regulations regarding use of the Site.
@@ -361,7 +361,7 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 							</li><li>
 						</ul>
 						<ul>
-							<strong>14. Service and Support for Products Purchased</strong>
+							<div class="strong">14. Service and Support for Products Purchased</div>
 							</li><li>
 
 							14.1  All requests for technical service and support should be made directly to the manufacturer in accordance with their Terms of service.
@@ -374,14 +374,14 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 							</li><li>
 						</ul>
 						<ul>
-							<strong>15. Trademarks</strong>
+							<div class="strong">15. Trademarks</div>
 							</li><li>
 
 							15.1  Coincod\'s logos are trademarks. All rights reserved. All other trademarks appearing on  Coincod are the property of their respective owners.
 							</li><li>
 						</ul>
 						<ul>
-							<strong>16. Failures and System Outage; Temporary Time-Out for Pending Auctions</strong>
+							<div class="strong">16. Failures and System Outage; Temporary Time-Out for Pending Auctions</div>
 							</li><li>
 
 							16.1  The highest priority to  Coincod is to provide an exciting, successful and reliable auction service, through its Coincod auction website, to the Participants.
@@ -403,21 +403,21 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 							</li><li>
 						</ul>
 						<ul>
-							<strong>17. No Responsibility for External Internet Links</strong>
+							<div class="strong">17. No Responsibility for External Internet Links</div>
 							</li><li>
 
 							17.1  Our website may contain links to other websites operated by third parties, and these sites may likewise contain links to other websites. Despite conducting careful checks, we assume no liability for the content of external links. The operators of the.1sites linked to and from this site are solely responsible for their contents. We hereby expressly distance ourselves from all content of any and all websites linked to the  Coincod website. We cannot take any responsibility for the content of the data protection guidelines of third-party websites.
 							</li><li>
 						</ul>
 						<ul>
-							<strong>18. Acceptance of Terms of service</strong>
+							<div class="strong">18. Acceptance of Terms of service</div>
 							</li><li>
 
 							18.1  By registering it will be deemed that you have fully read the Terms of service and accepted all Terms of service listed.
 							</li><li>
 						</ul>
 						<ul>
-							<strong>19. General / Miscellaneous</strong>
+							<div class="strong">19. General / Miscellaneous</div>
 							</li><li>
 							
 							19.1  Coincod will not be held responsible for the use of Bid details and/or other information given by Participants when submitting Bids, including through the Internet website of  Coincod, by parties that are not  Coincod and/or its employees, including hackers and/or parties that may penetrate the files of  Coincod\'s website.
@@ -446,21 +446,21 @@ ANY PERSON THAT DOES NOT ACCEPT THE TERMS OF SERVICE, AS WELL AS THE MANNER IN W
 							</li><li>
 						</ul>
 						<ul>
-							<strong>20. Copyright Release: </strong>
+							<div class="strong">20. Copyright Release: </div>
 							</li><li>
 							
 							Participant certifies that any comments or materials, including but not limited to informational content, writings, articles previously published and unpublished, artwork, illustrations and photography, submitted to  Coincod by Participant or by its appointed agents or representatives, for the purpose of publication on Coincod, do not knowingly infringe upon the copyrights of any other persons or entities.  Participant agrees indemnify and hold  Coincod harmless from any and all actions brought against it from any and all parties claiming to hold copyrights to any of Participant\'s submitted materials.
 							</li><li>
 						</ul>
 						<ul>
-							<strong>21.  Interpretation: </strong>
+							<div class="strong">21.  Interpretation: </div>
 							</li><li>
 								
 								The format, words and phrases used herein shall have the meaning generally understood in the Telecommunications/Software/Internet Industries.
 								</li><li>
 						</ul>
 						<ul>
-							<strong>22. Jurisdiction: </strong>
+							<div class="strong">22. Jurisdiction: </div>
 							</li><li>
 								
 								Normal 0 false false false EN-US ZH-CN X-NONE
@@ -472,14 +472,14 @@ The Customer hereby agrees that the Customer shall be solely responsible for the
 								</li><li>
 						</ul>
 						<ul>
-							<strong>23. Termination of Using the service:</strong>
+							<div class="strong">23. Termination of Using the service:</div>
 							</li><li>
 
 								You may terminate the use of service and close your user account. However, any contractual obligations incurred before the termination of the account shall remain in full force and effect until you completely discharge them by paying for any outstanding purchases and any applicable taxes or delivery charges.
 							</li><li>
 						</ul>
 						<ul>
-							<strong>24. Final Provisions:</strong>
+							<div class="strong">24. Final Provisions:</div>
 							</li><li>
 
 							24.1 In addition to these Terms of service, the relationship between you and Service Provider shall be governed by the Site price list for service.
