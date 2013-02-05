@@ -67,8 +67,7 @@ if ((isset($_SESSION['user_id'])) && (isset($_SESSION['email']))) {
 		<div id="after_log_in">
 			<div class="user_name">
 				<img src="'.$grav_url.'" alt="" />
-					<a href="'.$this->resource_path.'user_profile/?id=' . $userid . '">' . $user_data['username'] . '
-					</a>
+					<a href="'.$this->resource_path.'user_profile/?id=' . $userid . '">' . $user_data['username'] . '</a>
 			</div>
 			
 			<div id="logout">
