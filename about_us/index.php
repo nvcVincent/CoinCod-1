@@ -23,7 +23,7 @@ $contentContainer = array(
 		"bottom_image" =>""
     ),
 
-// Dispaly the contact details	
+// Display the contact details	
     array(
         'title' => 'Contacts',
         'content' => 'Need more support? Contact us at 
