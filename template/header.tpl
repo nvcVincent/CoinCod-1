@@ -92,7 +92,7 @@
 					</form>
 				</div>  <!--end div search-->
 				
-				<button class="form_button" name="btnSubmit" type="submit">LOGIN</button>
+				<a href="<?=$PREFIX?>/login"><button class="form_button" name="btnSubmit" type="submit">Sign In</button></a>
 				
 			</div> <!--end div container-->
 		</div> <!--end div header_content-->
