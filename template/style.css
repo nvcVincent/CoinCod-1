@@ -284,14 +284,15 @@ h1,h2,h3,h4,h5,h6{
 	margin-top: -16px;
 	}
 
-#after_log_in { /* after log in box container position */
-	margin-top: 15px;
+#after_log_in { /* after log in box container position 
+	margin-top: 15px; */
+	float: right
 	}
 	
 #after_log_in a{ /* username font and style */
 	font-weight: bold;
-	font-size: 15px;
-	width: 250px;
+	text-transform: capitalize;
+	font-size: 17px;
 	color: #000;
 	}
 	
@@ -299,44 +300,29 @@ h1,h2,h3,h4,h5,h6{
 	position: absolute;
 	margin-left: 5px;
 	margin-top: 10px;
+	max-width: 130px;
 	text-decoration: none;
-	max-width: 100px;
 	}
 	
 .user_name img { /* "welcome back" & "token left" image position */
 	margin-top: 10px;
+	width: 40px;
 	}
 
 #logout {
-	margin-top: -10px;	
+	margin-top: -35px;	
 	margin-left: 170px;
 	}
 	
-#logout a {  /* logout button position and style */
-	font-size: 12px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	text-decoration:none;
-	padding: 2px 5px 2px 5px;
-	font-weight: bold;
-	border: 1px solid #757575;
-	background: #d3d3d3;
-	text-align: center;	
+#logout img {
+	width: 35px;
 	}
-	
-#logout a:hover { /* logout button on mouseover */
-	color: #9c9c9c;
-	background: #4a4848;
-	}
-	
-#logout a:active { /* logout button on click */
-	background: #1c1c1c;
-	}
-		
+
 .token_left { /* user token left position and font */
 	font-family: Trebuchet MS;
-	margin-top: -5px;
-	font-size: 12px;
+	margin-top: -18px;
+	margin-left: 45px;
+	font-size: 14px;
 	}
 
 /* ---------- AFTER LOGIN @ HEADER END ---------- */
