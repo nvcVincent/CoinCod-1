@@ -1,5 +1,6 @@
 <?php
 	require $this->resource_path.'config.php';
+	require $this->resource_path.'sql_function.php';
 	session_start();
 ?>
 <html>
@@ -87,7 +88,7 @@
 					</table> 		
 				</nav>  <!--end div menu-->
 		
-				<?php echo "a".$_SESSION['user_id']; if (isset($_SESSION['user_id']))  {
+				<?php if (isset($_SESSION['user_id']))  {
 					$now = time(); 
 					if($now > $_SESSION['expire']) {
 						session_destroy();
@@ -105,7 +106,7 @@
 						$_SESSION['start_reset'] = time();
 						$_SESSION['expire'] = $_SESSION['start_reset'] + (30 * 60) ;
 						$userid = $_SESSION['user_id'];
-						$username = $_SESSION['user_username'];
+						$username = get_username($userid);
 							
 						$user=mysql_query("SELECT * FROM user_account WHERE user_id='$userid'");
 						$get=mysql_fetch_array($user);
@@ -130,6 +131,7 @@
 								<div id="logout">
 									<a href="'.$PREFIX.'/logout"><img src="'.$PREFIX.'/template/template_image/header/logout.png" border="0" width="30%" title="Log Out"></a>
 								</div>
+
 							</div>';
 					}
 				} else { 
