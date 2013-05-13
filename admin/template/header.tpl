@@ -31,7 +31,7 @@
 <div align="center" style="padding-bottom:0px;">
 	<?php 
 	if(isset($_SESSION["loggedId"])){ // if login true
-		include_once $this->template('menu.tpl.php') ;
+		include_once $this->template('menu.tpl') ;
 	}
 	?>
 </div>

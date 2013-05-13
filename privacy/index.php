@@ -17,7 +17,7 @@ $contentContainer = array(
     array(
         "title" => $title,
 		//Privacy Policy Contents
-        "content" => $tpl->fetch('privacy.tpl.php'),
+        "content" => $tpl->fetch('privacy.tpl'),
 		"bottom_image" =>'<img class="bottom" src="../template/template_image/bottom/privacy.png" alt="lock">'
     )
 );
@@ -28,6 +28,6 @@ $tpl->title = $title;
 $tpl->meta_description = $meta_description;
 $tpl->content_container = $contentContainer;
 
-$tpl->setTemplate('main.tpl.php');
+$tpl->setTemplate('main.tpl');
 $tpl->display();
 ?>

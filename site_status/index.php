@@ -16,7 +16,7 @@ $meta_description = "Welcome to CoinCod - a unique auction system built to draw 
 $contentContainer = array(
     array(
         "title" => $title,
-        "content" => $tpl->fetch('status.tpl.php'),
+        "content" => $tpl->fetch('status.tpl'),
 		"bottom_image" =>'<img class="bottom" src="../template/template_image/bottom/site_status.png" alt="communicating">'
     )
 );
@@ -27,6 +27,6 @@ $tpl->title = $title;
 $tpl->meta_description = $meta_description;
 $tpl->content_container = $contentContainer;
 
-$tpl->setTemplate('main.tpl.php');
+$tpl->setTemplate('main.tpl');
 $tpl->display();
 ?>

@@ -18,7 +18,7 @@
 <div class="main">
 	<div>
         <!-- header -->
-        <div style="text-align:left;"><?php include_once $this->template('header.tpl.php') ?></div>
+        <div style="text-align:left;"><?php include_once $this->template('header.tpl') ?></div>
         
         <!-- content -->
         <div>
@@ -28,7 +28,7 @@
         </div>
         
         <!-- footer -->
-        <div><?php include_once $this->template('footer.tpl.php') ?></div>
+        <div><?php include_once $this->template('footer.tpl') ?></div>
     </div>
 </div>
 </center>

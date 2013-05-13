@@ -29,9 +29,9 @@ if ( $action == 1 ) {
 	$content = "<div style='color:#d50000;text-align:left;'>
 					Your Email Cannot Be Sent. Please try again later. 
 					If this problem persists kindly send us an email at <a href='mailto:support@coincod.com'>support@coincod.com.</a> Thank you.
-				</div>".$tpl->fetch('register.tpl.php');
+				</div>".$tpl->fetch('register.tpl');
 } else if($action == 4) {
-	$content = "Congratulations! Your registration is successful!<br />".$tpl->fetch('login.tpl.php');
+	$content = "Congratulations! Your registration is successful!<br />".$tpl->fetch('login.tpl');
 }
 $contentContainer = array(
     array(
@@ -47,6 +47,6 @@ $tpl->title = $title;
 $tpl->meta_description = $meta_description;
 $tpl->content_container = $contentContainer;
 
-$tpl->setTemplate('main.tpl.php');
+$tpl->setTemplate('main.tpl');
 $tpl->display();
 ?>

@@ -73,22 +73,22 @@
 	<div id="wrapper">	
 		<?php
 		if((curPageURL() == mainPageURL()."/") && (!isset($_SESSION['user_id']))) {
-			include_once $this->template('index.tpl.php');
+			include_once $this->template('index.tpl');
 		} else { ?>
 			<!--header template-->
-			<?php include_once $this->template('header.tpl.php') ?>
+			<?php include_once $this->template('header.tpl') ?>
 	
 			<!--content-->
 			<section id="content_container">	
 				<?php 
 				//if (isset($_GET['search'])) { //load out in product template
-				//	include_once $this->template('search.tpl.php');
+				//	include_once $this->template('search.tpl');
 				//} else 
 				if ((curPageURL() == mainPageURL()."/") || (isset($_GET['search']))){ //load out in product template
-					include_once $this->template('product.tpl.php');
+					include_once $this->template('product.tpl');
 				 
 //				} else if (curPageURL() == mainPageURL()."/product/product_description.php") { //load out in product_description template
-//					include_once $this->template('product_description.tpl.php');
+//					include_once $this->template('product_description.tpl');
 //				} else if ($_SERVER["PHP_SELF"] == $PATH."/search/index.php") { //load out in search template
 //					echo $this->search;
 				} else { 
@@ -107,6 +107,6 @@
 	</div>
 	
 	<!--footer-->
-	<?php include_once $this->template('footer.tpl.php') ?>
+	<?php include_once $this->template('footer.tpl') ?>
 </body>
 </html>

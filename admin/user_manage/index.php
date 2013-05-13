@@ -12,7 +12,7 @@ $tpl->addPath('template', './../template');
 $resource_path = "../../";
 $title = "Manage User";
 $meta_description = "Welcome to CoinCod - a unique auction system built to draw everyone closer to their dream products.";
-$contentContainer = $tpl->fetch('user_manage.tpl.php');
+$contentContainer = $tpl->fetch('user_manage.tpl');
 
 // Assign values to the Savant instance.
 $tpl->resource_path = $resource_path;
@@ -20,6 +20,6 @@ $tpl->title = $title;
 $tpl->meta_description = $meta_description;
 $tpl->content_container = $contentContainer;
 
-$tpl->setTemplate('main.tpl.php');
+$tpl->setTemplate('main.tpl');
 $tpl->display();
 ?>
