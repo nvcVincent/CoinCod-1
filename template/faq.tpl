@@ -21,7 +21,7 @@
 	<h3>How much does it cost for me to place a bid?</h3>
 		<p>To submit a bid through CoinCod account it costs RM0.30 for one token. We have different amount of token that allows users to buy them at once. </p>
 
-	<h3>I don\'t live in the Malaysia. Can I still participate in CoinCod\'s auctions?</h3>
+	<h3>I don't live in the Malaysia. Can I still participate in CoinCod's auctions?</h3>
 		<p>Currently the answer is still no. CoinCod is currently open for Malaysian residents only. But we hope to extend the services to other countries soon. Hopefully our users can wait patiently.</p>
 
 	<h3>Is the warranty on the goods that I bid for an win in the auctions?</h3>
@@ -79,8 +79,8 @@
 		<p>CoinCod will always strive to dispatch products as soon as possible. Products are dispatched normally within 1-2 weeks from receipt of payment. Our delivery timeline is not binding. Customers should contact customer service at <a href="mailto:support@coincod.com">support@coincod.com</a> should they not have received the product within 14 working days after payment.</p>
 						
 	<h3>I have received a faulty product, what should I do?</h3>
-		<p>Apologies for the inconvenience caused. In rare occasions an item might not work or may get damaged during transport. If such is the case, our aim is to solve the problem as quickly as possible. Please note that in such a case you are obliged to notify our team to <a href="mailto:support@coincod.com">support@coincod.com</a> within 3 days after delivery. It can sometimes be useful to check the manufacturer\'s website or call their helpline - many of the most common problems are easily solved without having to return the product. In the event that the product you received is faulty, please contact us at <a href="mailto:support@coincod.com">support@coincod.com</a> and we\'ll tell you what to do next. Please let us know the Product ID and the serial number of the product, as these help us to deal with your problem as quickly as possible. We work with a range of different suppliers who are happy to help identify any problems and to replace faulty items if necessary.
-		NOTE:Please don\'t send the item back to us without contacting us - this could result in a delay between return of your item and a replacement being dispatched. If your product does need replacing, we\'ll contact you and let you know when that will be done.</p>
+		<p>Apologies for the inconvenience caused. In rare occasions an item might not work or may get damaged during transport. If such is the case, our aim is to solve the problem as quickly as possible. Please note that in such a case you are obliged to notify our team to <a href="mailto:support@coincod.com">support@coincod.com</a> within 3 days after delivery. It can sometimes be useful to check the manufacturer's website or call their helpline - many of the most common problems are easily solved without having to return the product. In the event that the product you received is faulty, please contact us at <a href="mailto:support@coincod.com">support@coincod.com</a> and we\'ll tell you what to do next. Please let us know the Product ID and the serial number of the product, as these help us to deal with your problem as quickly as possible. We work with a range of different suppliers who are happy to help identify any problems and to replace faulty items if necessary.
+		NOTE:Please don't send the item back to us without contacting us - this could result in a delay between return of your item and a replacement being dispatched. If your product does need replacing, we'll contact you and let you know when that will be done.</p>
 
 	<h3>Can I return the product I have won?</h3>
 		<p>Sorry, the answer is no. In order to be fair towards other users, Coincod do not take refund policy unless its proven it is our fault.</p>
