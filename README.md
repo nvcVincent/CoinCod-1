@@ -29,9 +29,11 @@ Inside of mainPageURL function under return $pageURL enter your folder name that
 
 function mainPageURL(){
 	$pageURL = 'http';
-	:
-	:
-	:
+	.
+	.
+	.
+	.
+	.
  	return $pageURL .= "/enter your folder name";
 }
 
