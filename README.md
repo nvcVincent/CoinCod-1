@@ -2,37 +2,34 @@ CoinCod
 =================
 
 Introduction
-------------
-
+--------------
 CoinCod is unique auction system design to bring users with the same taste together and get their dream products at a best deal.
 System can easily be setup by changing config.php according to your local machine setup. 
-A couple local server can be use to setup the system. Recommended of the shelf packet local server:
-1.XAMPP
-2.WAMP
-3.MAMP
+A couple local server can be use to setup the system. Below are recommended off the shelf packed local server:
+1. XAMPP
+2. WAMP
+3. MAMP
 
+Setup
+--------------
 
 Enter details which ever place is appropriate for setup: 
 
-$hostname = 'localhost';
-$dbname = 'enter your database name';
-$username = 'enter your localhost username';
-$password = 'enter your localhost password';
+$hostname = '__enter your hostname__';      --> if you are on local use '__localhost__'
+$dbname = '__enter your database name__';
+$username = '__enter your localhost username__';
+$password = '__enter your localhost password__';
 
-Inside of mainPageURL function enter your folder name that stores all your coincod files. You can omit this step if you are running on a live server.
+Note: You can omit this step if you are running on a live server.
+
+Inside of mainPageURL function enter your folder name that stores all your coincod files. 
 
 function mainPageURL(){
 	$pageURL = 'http';
-	if ( isset( $_SERVER["HTTPS"] ) && strtolower( $_SERVER["HTTPS"] ) == "on" ) {
-		$pageURL .= "s";
-	}
- 		$pageURL .= "://";
- 	if($_SERVER["SERVER_PORT"] != "80"){
-  		$pageURL .= host.":".$_SERVER["SERVER_PORT"];
- 	}else{
-  		$pageURL .= host;
- 	}
- 	return $pageURL .= "/enter your folder name";
+	:
+	:
+	:
+ 	return $pageURL .= "/__enter your folder name__";
 }
 
 
