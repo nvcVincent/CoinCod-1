@@ -2,7 +2,7 @@ CoinCod
 =================
 
 Introduction
---------------
+
 CoinCod is unique auction system design to bring users with the same taste together and get their dream products at a best deal.
 System can easily be setup by changing config.php according to your local machine setup. 
 A couple local server can be use to setup the system. Below are recommended off the shelf packed local server:
@@ -11,14 +11,14 @@ A couple local server can be use to setup the system. Below are recommended off 
 3. MAMP
 
 Setup
---------------
+
 
 Enter details which ever place is appropriate for setup: 
 
-$hostname = '__enter your hostname__';      --> if you are on local use '__localhost__'
-$dbname = '__enter your database name__';
-$username = '__enter your localhost username__';
-$password = '__enter your localhost password__';
+$hostname = 'enter your hostname';      --> if you are on local use 'localhost'
+$dbname = 'enter your database name';
+$username = 'enter your localhost username';
+$password = 'enter your localhost password';
 
 Note: You can omit this step if you are running on a live server.
 
@@ -29,7 +29,7 @@ function mainPageURL(){
 	:
 	:
 	:
- 	return $pageURL .= "/__enter your folder name__";
+ 	return $pageURL .= "/enter your folder name";
 }
 
 
