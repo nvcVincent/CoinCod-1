@@ -25,7 +25,7 @@ $password = 'enter your localhost password';
 
 Note: You can omit this step if you are running on a live server.
 
-Inside of mainPageURL function enter your folder name that stores all your coincod files. 
+Inside of mainPageURL function under return $pageURL enter your folder name that stores all your coincod files. 
 
 function mainPageURL(){
 	$pageURL = 'http';
