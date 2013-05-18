@@ -8,9 +8,9 @@ Introduction
 -----------------
 
 CoinCod is unique auction system design to bring users with the same taste together and get their dream products at a best deal. The system can easily be setup by changing config.php according to your local machine setup. A couple local server can be use to setup the system. Below are some recommended off the shelf packed local server:
-1. XAMPP
-2. WAMP
-3. MAMP
+	1. XAMPP
+	2. WAMP
+	3. MAMP
 
 
 Setup
