@@ -1121,10 +1121,11 @@ fieldset { /* each fieldset spacing size */
 
 .answer ul li { /* adjust the payment type on the answers */
 	margin-top: -10px;
-	}
+	}	
 	
-
-
+.ui-accordion .ui-accordion-header {
+	padding-left: 30px !important;
+	}
 
 /*---------- FAQ PAGE END ----------*/
 
@@ -1562,9 +1563,3 @@ privacy ul li {
 /*---------- REGISTRATION register form PAGE END ----------*/	
                     
 	}
-	
-	
-.ui-accordion .ui-accordion-header {
-	padding-left: 30px !important;
-	}
-
