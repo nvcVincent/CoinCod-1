@@ -2,7 +2,6 @@
 session_start();
 require_once "../config.php";
 require_once "../sql_function.php";
-
 if((isset($_POST['pid'])) && (isset($_POST['uid'])))
 {
 	$pid=$_POST['pid'];
@@ -10,9 +9,9 @@ if((isset($_POST['pid'])) && (isset($_POST['uid'])))
 	$email = $_SESSION['email'];
 	$user_data = getMemberRecords($email);
 	$oldtoken = $user_data['token'];
-	$product_data = getProductList($pid, 0, 0);
-	$oldtotalbid = $user_data['bid'];
-	$oldauctionprice=$get["aprice"];
+	$product_data = getProductData($pid, 0, 0);
+	$oldtotalbid = $product_data['bid'];
+	$oldauctionprice=$product_data["aprice"];
 
 	if($oldtotalbid <=200)                                {	$newtoken = $oldtoken - 1;      }
 	if($oldtotalbid > 200 && $oldtotalbid <= 400)         {	$newtoken = $oldtoken - 2;		}
