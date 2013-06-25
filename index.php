@@ -1,6 +1,6 @@
 <?php
 // Load the Savant3 class file and create an instance.
-require_once '../libs/Savant3.php';
+require_once 'libs/Savant3.php';
 
 // initialize template engine
 $tpl = new Savant3();
