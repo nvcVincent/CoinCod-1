@@ -37,7 +37,11 @@ if((isset($_POST['pid'])) && (isset($_POST['uid'])))
 	
 	if($newtoken >= 0) {
 		$newtotalbid = $oldtotalbid + 1;
-		$newauctionprice = $oldauctionprice + 0.01;
+		if($oldauctionprice > 0.00) {
+			$newauctionprice = $oldauctionprice - 0.01;
+		} else {
+			$newauctionprice = $oldauctionprice + 0.01;
+		}
 		
 		$result = bid($uid, $newtoken, $pid, $newauctionprice, $newauctionstart, $newauctionend, $newtotalbid);
 
