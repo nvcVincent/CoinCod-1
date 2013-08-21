@@ -8,6 +8,9 @@
 						<a href="<?=mainPageURL()?>/about_us">About Us</a>
 					</li>
 					<li>
+						<a href="<?=mainPageURL()?>/how_it_works">How It Works</a>
+					</li>
+					<li>
 						<a href="<?=mainPageURL()?>/faq">FAQ</a>
 					</li>
 					<li>
@@ -17,7 +20,7 @@
 						<a href="<?=mainPageURL()?>/feedback">Feedback</a>
 					</li>
 				</ul>
-						
+					 	
 				<ul class="footer_nav">
 					<h4>Other Features</h4>
 					<li>
