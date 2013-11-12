@@ -38,4 +38,4 @@ Inside of mainPageURL function under return $pageURL enter your directory name w
 	}
 
 
-
+Finally, download the CoinCod database from Google Drive through your NexVend account. There are a few version of databases hosted, choose the one with the latest modification date.
