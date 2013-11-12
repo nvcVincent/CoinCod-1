@@ -8,8 +8,8 @@
 	<div id="header_content">
 		<div class="container">
 <!--			<div class="login_head">
-<!--				<?php ///include_once $this->template('login.tpl') ?>
-<!--			</div> <!--end div login_head-->
+				<?php ///include_once $this->template('login.tpl') ?>
+			</div> <!--end div login_head--> 
 						
 			<div id="logo">
 				<a href="<?=mainPageURL()?>"></a>

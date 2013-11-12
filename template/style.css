@@ -307,7 +307,8 @@ h1,h2,h3,h4,h5,h6{
 	
 .user_name img { /* "welcome back" & "token left" image position */
 	margin-top: 10px;
-	width: 40px;
+	min-width: 40px;
+	min-height: 40px;
 	}
 
 #logout {
@@ -942,9 +943,14 @@ fieldset { /* each fieldset spacing size */
 	padding: 10px 10px 10px 10px;
 	position: relative;
 	margin-left: -60px;
-	margin-top: 100px;
+	margin-top: 85px;
 }
 
+#fb { /* facebook share button alignment */
+	margin-top: -35px;
+	margin-left: 85px;
+}
+	
 /*------------PRODUCT_DESCRIPTION PAGE END -------------*/	
 
 
@@ -1512,12 +1518,20 @@ privacy ul li {
 	}
 	
 #after_log_in .user_name a{ /* username position */
-	margin-left: 20px;
+	margin-left: 45px;
 	margin-top:-10px;
+	}
+
+#after_log_in .token_left { /*token left position */
+	margin-top:10px;
 	}
 	
 .user_name img { /* "welcome back" & "token left" image position */
 	margin-top: -10px;
+	min-width:40px;
+	min-height: 40px;
+	background: #ff3;
+	position: absolute;
 	}
 
 /* ---------- AFTER LOGIN @ HEADER END ---------- */
