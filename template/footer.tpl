@@ -128,9 +128,8 @@
 <script>
     var poll = function () {
         $.ajax({
-            url: "/ajax.php"
+            url: "<?php echo mainPageURL() . '/ajax.php'; ?>"
         }).done(function (data) {
-            console.log(data);
             $("#punchline").text(data);
             setTimeout(poll, 1000);
         });
