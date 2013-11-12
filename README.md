@@ -25,7 +25,7 @@ After editing the setup as shown above, you need to edit one last part as shown 
 
 Note: You can omit this step below if you are running it on a live server.
 
-Inside of mainPageURL function under return $pageURL enter your folder name that stores all your coincod files. 
+Inside of mainPageURL function under return $pageURL enter your directory name where you stored all your development files for CoinCod. 
 
 	function mainPageURL(){
 		$pageURL = 'http';
@@ -34,7 +34,7 @@ Inside of mainPageURL function under return $pageURL enter your folder name that
 		.
 		.
 		.
- 		return $pageURL .= "/enter your folder name";
+ 		return $pageURL .= "/enter your directory name";
 	}
 
 
