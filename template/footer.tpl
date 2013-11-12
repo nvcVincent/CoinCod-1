@@ -125,4 +125,10 @@
         });
     });
 </script>
-        
+<script>
+    $.ajax({
+        url: "/ajax.php?foo=bar&potato=banana"
+    }).done(function (data) {
+        console.log(data);
+    });
+</script>        
