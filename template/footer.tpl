@@ -126,9 +126,15 @@
     });
 </script>
 <script>
-    $.ajax({
-        url: "/ajax.php?foo=bar&potato=banana"
-    }).done(function (data) {
-        console.log(data);
-    });
-</script>        
+    var poll = function () {
+        $.ajax({
+            url: "/ajax.php"
+        }).done(function (data) {
+            console.log(data);
+            $("#punchline").text(data);
+            setTimeout(poll, 1000);
+        });
+    }
+
+    poll();
+</script>
