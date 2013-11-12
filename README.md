@@ -12,17 +12,20 @@ CoinCod is unique auction system design to bring users with the same taste toget
 
 Setup
 -----------------
+First locate config.php. It should be at the root level of your directory.
 
-Enter which ever part is appropriate for setup: 
+Next, open the config.php with any favorite text editor of your choice to edit which ever part of the config.php for setup: 
 
 	$hostname = 'enter your hostname';	--> if you are on local machine set hostname to 'localhost'
 	$dbname = 'enter your database name';
 	$username = 'enter your localhost username';
 	$password = 'enter your localhost password';
 
-Note: You can omit this step if you are running on a live server.
+After editing the setup as shown above, you need to edit one last part as shown below before the server will be able to serve all your files correctly.
 
-Inside of mainPageURL function under return $pageURL enter your folder name that stores all your coincod files. 
+Note: You can omit this step below if you are running it on a live server.
+
+Inside of mainPageURL function under return $pageURL enter your directory name where you stored all your development files for CoinCod. 
 
 	function mainPageURL(){
 		$pageURL = 'http';
@@ -31,8 +34,8 @@ Inside of mainPageURL function under return $pageURL enter your folder name that
 		.
 		.
 		.
- 		return $pageURL .= "/enter your folder name";
+ 		return $pageURL .= "/enter your directory name";
 	}
 
 
-
+Finally, download the CoinCod database from Google Drive through your NexVend account. There are a few version of databases hosted, choose the one with the latest modification date.
