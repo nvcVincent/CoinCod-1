@@ -114,7 +114,7 @@ if(isset($_POST["btnSubmit"])){
 			<h3>Reporting a security vulnerability?</h3>
 			Please send to our email at
 			<a href="mailto:security@coincod.com">security@coincod.com</a>
-			If you have any special request <div class="strong">just shoot CoinCod an email</div>, we are always available.
+			If you have any special request <strong>just shoot CoinCod an email</strong>, we are always available.
 			<img alt="fisheart" class="fisheart" src="../template/template_image/fisheart.png">
 		</section>
 	</ul>
