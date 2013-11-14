@@ -656,7 +656,6 @@ fieldset { /* each fieldset spacing size */
 
 .auction_box { /* the single box for each auction item */
 	-moz-border-radius: 20px;
-	box-shadow: 5px 5px 10px #666666;
 	border-radius: 20px;
 	margin-left: 14px;
 	float: left;
