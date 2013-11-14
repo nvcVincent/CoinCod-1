@@ -724,7 +724,7 @@ fieldset { /* each fieldset spacing size */
 .image { /* the position & design of each auction item image */
 	position: absolute;
 	top: 50px;
-	right: 9px;
+	right: 14px;
 	width: 210px;
 	height: 150px;	
 	text-align: center;
