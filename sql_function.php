@@ -116,6 +116,27 @@ function getProductData($id, $search, $limit) {
 	return $records;
 }
 
+function getProductById ($id) {
+	$sql = mysql_query("SELECT * FROM product_list 
+						INNER JOIN product_category ON product_list.Category = product_category.category_id
+						WHERE product_id='".$id."'")or die ("Unable to run query:".mysql_error());
+						
+	$rows = mysql_fetch_array($sql);
+	$records["pid"] = $rows["product_id"];
+	$records["brand"] = $rows["Brand"];
+	$records["model"] = $rows["Model"];
+	$records["mprice"] = $rows["market_price"];
+	$records["aprice"] = $rows["auction_price"];
+	$records["category"] = $rows["Category"];
+	$records["availablity"] = $rows["Availability"];
+	$records["description"] = $rows["Description"];
+	$records["bid"] = $rows["total_bid"];
+	$records["astart"] = $rows["auction_start"];
+	$records["aend"] = $rows["auction_end"];
+	    
+	return $records;
+}
+
 function getBidderList($limit) {
 	if($limit == 0 ) { $rule = ""; } 
 	else { $rule = "LIMIT ".$limit; }

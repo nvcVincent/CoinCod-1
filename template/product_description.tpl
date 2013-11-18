@@ -39,7 +39,19 @@ for($i=0;$i<1;$i++) {
 	if($token_needed > 4000)									{	$tokenneed = 25;	}
 ?>
 	<script>
-		Timer[<?=$productId?>] =<?=$product_time?>;
+		var poll<?=$productId?> = function () {
+			$.ajax({
+				type: 'POST',
+				url: "<?php echo mainPageURL() . '/timer.php'; ?>",
+				data : {
+					id : <?php echo $productId; ?>
+				}
+			}).done(function (data) {
+				$("#bid_timer_<?=$productId?>").text(data);
+				setTimeout(poll<?=$productId?>, 1000);
+			});
+		}
+		poll<?=$productId?>();
 	</script>
 
 	<div id="product">
