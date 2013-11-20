@@ -12,9 +12,11 @@ CoinCod is unique auction system design to bring users with the same taste toget
 
 Setup
 -----------------
-First locate config.php. It should be at the root level of your directory.
+First we need to config our php.ini. Locate php.ini. It should be located at /xampp/php/ directory (if you are using MAMP or WAMP the location is slightly different). Browse to line 226 and remove the semi-colon at the beginning of short_open_tag = On so that your php can support short tags.
 
-Next, open the config.php with any favorite text editor of your choice to edit which ever part of the config.php for setup: 
+Next locate config.php. It should be at the root level of your working directory.
+
+Open the config.php with any favorite text editor of your choice to edit which ever part of the config.php for setup: 
 
 	$hostname = 'enter your hostname';	--> if you are on local machine set hostname to 'localhost'
 	$dbname = 'enter your database name';
