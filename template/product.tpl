@@ -16,14 +16,8 @@
 			$pro_id=$product[$i]["pid"]; 
 			$pro_brand = $product[$i]["brand"];
 			$pro_model = $product[$i]["model"];
-///			$pro_mprice = $product[$i]["mprice"];
 			$pro_aprice = $product[$i]["aprice"];
-	//		$pro_category =$product[$i]["category"]; 
-	//		$pro_availability = $product[$i]["availability"];
-	//		$pro_description = $product[$i]["description"];
 			$pro_bid = $product[$i]["bid"];
-	//		$pro_astart = $product[$i]["astart"];
-			
 			$pro_aend = $product[$i]["aend"];	
 			$auctiontime = $pro_aend - time();
 			
@@ -50,7 +44,19 @@
 			if($pro_bid > 4000)									{	$tokenneed = 25;	}
 ?>
 			<script>
-				Timer[<?=$pro_id?>] = <?=$auctiontime?>;
+				var poll<?php echo $pro_id; ?> = function () {
+					$.ajax({
+						type: 'POST',
+						url: "<?php echo mainPageURL() . '/timer.php'; ?>",
+						data : {
+							id : <?php echo $pro_id; ?>
+						}
+					}).done(function (data) {
+						$("#bid_timer_<?php echo $pro_id; ?>").text(data);
+						setTimeout(poll<?php echo $pro_id; ?>, 1000);
+					});
+				}
+				poll<?php echo $pro_id; ?>();
 			</script>
 			<ul id="auction_list_ul" class="auction_box">
 				<li>
@@ -77,7 +83,6 @@
 					
 					<div class="bid_box">
 						<div id="bid_timer_<?=$pro_id?>" class="bid_timer" end_time="">
-							<?=$auctiontime?>
 						</div>
 						<!--<div id="bid_price_1" class="bid_price">'.$Marketprice.'</div>-->
 							
