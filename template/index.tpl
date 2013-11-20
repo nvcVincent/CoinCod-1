@@ -93,7 +93,19 @@
 				
 		?>
 			<script>
-				Timer[<?=$pro_id?>] = <?=$auctiontime?>;
+				var poll<?php echo $pro_id; ?> = function () {
+					$.ajax({
+						type: 'POST',
+						url: "<?php echo mainPageURL() . '/timer.php'; ?>",
+						data : {
+							id : <?php echo $pro_id; ?>
+						}
+					}).done(function (data) {
+						$("#bid_timer_<?php echo $pro_id; ?>").text(data);
+						setTimeout(poll<?php echo $pro_id; ?>, 1000);
+					});
+				}
+				poll<?php echo $pro_id; ?>();
 			</script>
 			<ul id="auction_list_ul" class="auction_box">
 				<li>
