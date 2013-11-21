@@ -227,15 +227,16 @@ h1,h2,h3,h4,h5,h6{
 .form_button{ /* login button */ /***************** share for logout and submit *****************/
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	margin-top: 20px;
+	margin-top: 12px;
 	float: right;
-	font-size: 11px;
+	font-size: 17px;
 	font-weight: bold;
 	color: #3f3f3f;
 	border: 1px solid #757575;
 	min-width: 60px;
 	min-height: 23px;
 	background: #d3d3d3;
+	padding: 8px;
 }
 
 .form_button:hover{ /* login button on mouseover */
