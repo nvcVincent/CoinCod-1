@@ -58,8 +58,14 @@ if(isset($_POST["btnLogin"])){
 }
 ?>
 <?php 
-echo $echo_error; echo $_SESSION['error'];
+	if(isset($echo_error)) {
+		echo $echo_error; 
+	}
+	if(isset($_SESSION['error'])) {
+		echo $_SESSION['error']; 
+	}
 ?>
+
 <form action="#" enctype="multipart/form-data" name="myForm" id="myForm" method="post">
 	<table width="650" cellpadding="0" cellspacing="10">
 		<tr>

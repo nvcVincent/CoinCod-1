@@ -125,15 +125,3 @@
         });
     });
 </script>
-<script>
-    var poll = function () {
-        $.ajax({
-            url: "<?php echo mainPageURL() . '/ajax.php'; ?>"
-        }).done(function (data) {
-            $("#punchline").text(data);
-            setTimeout(poll, 1000);
-        });
-    }
-
-    poll();
-</script>

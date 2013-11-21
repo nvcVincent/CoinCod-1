@@ -26,7 +26,11 @@
 		}	
 	} 
 ?>
-<?=$echo_error;?>
+<?php 
+	if(isset($echo_error)) {
+		echo $echo_error; 
+	}
+?>
 <form action="" enctype="multipart/form-data" name="myForm" id="myForm" method="post">
 	<section class="forgot">
 		<table>
