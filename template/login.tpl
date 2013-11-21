@@ -61,25 +61,29 @@ if(isset($_POST["btnLogin"])){
 echo $echo_error; echo $_SESSION['error'];
 ?>
 <form action="#" enctype="multipart/form-data" name="myForm" id="myForm" method="post">
-	<table width="650" cellpadding="0" cellspacing="10">
+	<table width="550" cellpadding="0" cellspacing="10" class="login_page">
 		<tr>
-			<td width="25%">
+			<td class="value">
 				Email
 			</td>
-			<td width="75%">
+		</tr>
+		<tr>
+			<td>
 				<input type="text" name="email" value="" class="text" id="email"  placeholder="Email" size="33" maxlength="50" tabindex="10" required >
 			</td>
 		</tr>
 		<tr>
-			<td width="25%">
+			<td class="value">
 				Password
 			</td>
-			<td width="75%">
+		</tr>
+		<tr>
+			<td>
 				<input type="password" name="password" value="" class="text" id="password" placeholder="Password" size="33" maxlength="50" tabindex="12" required >
 			</td>
 		</tr>
         <tr>
-			<td colspan="2">
+			<td>
 				<input name="btnLogin" type="submit" class="form_button" value="Login">
 			</td>
 		</tr>

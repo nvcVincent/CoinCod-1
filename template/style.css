@@ -441,6 +441,21 @@ input {
 	margin-left: 240px;
 	}
 	
+.login_page .value { /* the text of email and password style */
+	font-size: 17px;
+	}
+	
+.login_page input {/* the form space & font size */
+	padding: 4px;
+	font-size: 150%;
+	}
+	
+.login_page .form_button { /* button style */
+	width: 15%;
+	padding: 5px;
+	font-size: 120%;
+`	}
+	
 /*---------- LOGIN PAGE END ----------*/
 
 
