@@ -96,7 +96,7 @@
 
 				}
 			} else { 
-				echo '<a href="'.mainPageURL().'/login"><button class="form_button" name="btnSubmit" type="submit">Sign In</button></a>';
+				echo '<a href="'.mainPageURL().'/login"><button class="form_button" name="btnSubmit" type="submit">Sign Up</button></a>';
 			}	
 			?>
 		</div> <!--end div container-->
