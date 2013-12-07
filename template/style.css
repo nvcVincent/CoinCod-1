@@ -417,6 +417,10 @@ input {
 
 /*---------- LOGIN PAGE ----------*/
 
+#myLoginForm { /* the login content position centralized */
+	margin-left: 170px;
+}
+
 #login { /* the login for width and position */
 	width: 400px;
 	margin-left: 200px;	
@@ -513,7 +517,7 @@ input {
 	font-family: Trebuchet MS;
 	font-size: 14px;
 	padding-bottom: 20px;
-	border: 2px solid #9c9c9c;
+	/*border: 2px solid #9c9c9c;*/
 }
 
 .registration fieldset { /* the form width and position */
@@ -527,9 +531,10 @@ input {
 	}
 	
 .registration #myForm td { /* form static word size */
-	font-size: 14px;
+	font-size: 17px;
 	padding-top: 17px;
 	width: 150px;
+	background: #ff3;
 }
 
 .registration .smallfont { /* form sub title */
@@ -543,8 +548,9 @@ input {
 
 /* text area size */	
 .registration .text {
-	width : 280px;
+	width: 340px;
 	padding: 4px;
+	font-size: 20px;
 	}
 	
 .registration #date_birth_year{
@@ -603,6 +609,7 @@ fieldset { /* each fieldset spacing size */
 .registration .form_button { /* the position of the button */
 	margin-top: 20px;
 	margin-left: 410px;
+	font-size: 15px;
 	
 	}
 	
@@ -634,16 +641,16 @@ fieldset { /* each fieldset spacing size */
 
 .forgot td .value { /* the form value text size and position */
 	text-align: left;
-	font-size: 15px;
-	font-weight: bold;
-	margin-left: 175px;
+	font-size: 17px;
+	margin-left: 155px;
 	margin-top: 0px;
 	padding-bottom: 5px;
 	}
 	
 .forgot .text { /* the text area size and position */
-	width: 350px;
+	width: 400px;
 	padding: 4px;
+	font-size: 19px;
 	}
 
 .forgot span { /* the alert text position */
@@ -654,8 +661,8 @@ fieldset { /* each fieldset spacing size */
 	}
 	
 .forgot .form_button { /* the form button position */
-	margin-top: 10px;
-	margin-left: 250px;
+	font-size: 15px;
+	margin-right: 150px;
 	}
 	
 /*---------- FORGOT PASSWORD form PAGE END ----------*/	
