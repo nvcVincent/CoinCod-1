@@ -517,7 +517,7 @@ input {
 	font-family: Trebuchet MS;
 	font-size: 14px;
 	padding-bottom: 20px;
-	border: 2px solid #9c9c9c;
+	/*border: 2px solid #9c9c9c;*/
 }
 
 .registration fieldset { /* the form width and position */
@@ -531,9 +531,10 @@ input {
 	}
 	
 .registration #myForm td { /* form static word size */
-	font-size: 14px;
+	font-size: 17px;
 	padding-top: 17px;
 	width: 150px;
+	background: #ff3;
 }
 
 .registration .smallfont { /* form sub title */
@@ -547,8 +548,9 @@ input {
 
 /* text area size */	
 .registration .text {
-	width : 280px;
+	width: 340px;
 	padding: 4px;
+	font-size: 20px;
 	}
 	
 .registration #date_birth_year{
@@ -607,6 +609,7 @@ fieldset { /* each fieldset spacing size */
 .registration .form_button { /* the position of the button */
 	margin-top: 20px;
 	margin-left: 410px;
+	font-size: 15px;
 	
 	}
 	
