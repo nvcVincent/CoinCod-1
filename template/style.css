@@ -641,16 +641,16 @@ fieldset { /* each fieldset spacing size */
 
 .forgot td .value { /* the form value text size and position */
 	text-align: left;
-	font-size: 15px;
-	font-weight: bold;
-	margin-left: 175px;
+	font-size: 17px;
+	margin-left: 155px;
 	margin-top: 0px;
 	padding-bottom: 5px;
 	}
 	
 .forgot .text { /* the text area size and position */
-	width: 350px;
+	width: 400px;
 	padding: 4px;
+	font-size: 19px;
 	}
 
 .forgot span { /* the alert text position */
@@ -661,8 +661,8 @@ fieldset { /* each fieldset spacing size */
 	}
 	
 .forgot .form_button { /* the form button position */
-	margin-top: 10px;
-	margin-left: 250px;
+	font-size: 15px;
+	margin-right: 150px;
 	}
 	
 /*---------- FORGOT PASSWORD form PAGE END ----------*/	
