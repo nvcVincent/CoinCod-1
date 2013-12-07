@@ -417,6 +417,10 @@ input {
 
 /*---------- LOGIN PAGE ----------*/
 
+#myLoginForm { /* the login content position centralized */
+	margin-left: 170px;
+}
+
 #login { /* the login for width and position */
 	width: 400px;
 	margin-left: 200px;	

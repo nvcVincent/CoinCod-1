@@ -66,8 +66,8 @@ if(isset($_POST["btnLogin"])){
 	}
 ?>
 
-<form action="#" enctype="multipart/form-data" name="myForm" id="myForm" method="post">
-	<table width="550" cellpadding="0" cellspacing="10" class="login_page">
+<form action="#" enctype="multipart/form-data" name="myForm" id="myLoginForm" method="post">
+	<table cellpadding="0" cellspacing="10" class="login_page">
 		<tr>
 			<td class="value">
 				Email
